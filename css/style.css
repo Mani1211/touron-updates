@@ -95,7 +95,7 @@ background: linear-gradient(to right, #267871, #136a8a); /* W3C, IE 10+/ Edge, F
 .tag-content p{
   font-size: 18px;
   font-family: 'Andika', sans-serif;
-  text-align:center;
+  
 }
 
 .pictures{
@@ -107,6 +107,11 @@ background: linear-gradient(to right, #267871, #136a8a); /* W3C, IE 10+/ Edge, F
   width: 380px;
   height: 440px;
   margin-top: 30px;
+}
+
+.celebrity-image a{
+  text-decoration: none;
+  outline: none;
 }
 
 .celebrity-image img{
@@ -158,7 +163,7 @@ background: linear-gradient(to right, #267871, #136a8a); /* W3C, IE 10+/ Edge, F
 .partner-container{
     background-color: #fff;
     width: 100%;
-    height: 450px;
+    height: 550px;
 }
 .partner-headings{
     display: flex;
@@ -191,7 +196,7 @@ margin: 0 20px;
 .partner{
     width:150px;
     height: 90px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     flex-basis: 15%;
 }
 /* .partner #spec{
@@ -212,12 +217,77 @@ margin: 0 20px;
 
 
 
+/* Faq */
+
+
+.faq-section{
+  width: 100%;
+  height: auto;
+  
+}
+.faq-section h1{
+padding-top: 40px;
+}
+.faq-content{ 
+  display: flex;
+  justify-content: space-evenly;
+}
+.faq-section .faq-que{
+  width: 100%;
+  margin:40px 20px;
+  padding: 0 50px;
+}
+.faq-que h2{
+  padding-right: 100px;
+  margin:60px 0;
+  font-weight: bold;
+}
+
+.faq-que h2::first-letter{
+  font-size: 50px;
+}
+
+.faq-que p{
+  font-size: 30px;
+}
+
+.faq-que .readmore{
+  width: 150px;
+  padding: 10px;
+  border: 2px solid #333;
+  color: #333;
+  outline: none;
+  border-radius: 20px;
+  margin-left: 220px;
+  transition: .5s ease-out;
+  background-color: transparent;
+}
+
+.faq-que .readmore:hover{
+  box-shadow: 0 0 20px #333;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.faq-section .faq-image{
+width: 100%; 
+margin: 30px 0;
+}
+
+.faq-image img{
+  margin: 20px;
+  width: 600px;
+  height: 400px;
+}
+
+
+
+
+/* Newsletter */
 
 
 .enquiry{
   width: 100%;
   height: 60px;
-  margin-top: 60px ;
   background-color:#DAE0E2;
   color: #fff;
   display: flex;
