@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+
+
+body
+{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+
+
+header{
+    width: 100%;
+    height: 90px;
+    box-shadow: 0 0 10px gray;
+    background-color: white;
+}
+
+nav ul{
+    list-style: none;
+    float: right;
+    
+}
+ nav img{
+    margin-top: 13px;
+    width: 200px;
+    margin-left: 35px;
+}
+nav ul li{
+    display: inline-block;
+    padding: 16px 16px;
+    line-height: 50px;
+    font-size: 17px;
+    font-family: cursive;
+    color: black;
+    font-weight: 600;
+}
+nav ul li a{
+    color: #3e8799;
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    color:#a90d0d;
+    
+}
+
+.faq-section{
+    width: 100%;
+    margin: 50px;
+}
+
+.faq-questions{
+    display: flex;
+    width: 1000px;
+    flex-direction: column;
+   
+   
+}
+
+
+.question-section{
+    border-top: 4px solid aqua;
+}
+
+.question-section a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+.question-section a i{
+    padding-left:  400px;
+}
+.question{
+    display: block;
+    padding: 16px 20px;
+    overflow: hidden;
+    position: relative;
+    background: #67E6DC;
+}
+
+.question:before{
+    content:'';
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: #67E6DC;
+    left: 20px;
+    bottom: -7px;
+    transform: rotate(45deg);
+}
+.answers{
+    background: #333;
+    overflow: hidden;
+    max-height: 0;
+    transition: all .3s;
+}
+
+.answers a{
+    display: block;
+    padding: 16px 26px;
+    position: relative;
+    font-size: 14px;
+    margin: 4px 0;
+    color: #a90d0d;
+}
+
+.answers a:before{
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background: blueviolet;
+    left: 0;
+    top: 0;
+    transition: .3s;
+    opacity: 0;
+}
+
+.answers a:hover:before{
+    opacity: 1;
+}
+
+.question-section:target .answers{
+    max-height: 10em;
+}
+
+.question-section:target .answers:before{
+    max-height: 0;
+}
