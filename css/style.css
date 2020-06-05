@@ -203,13 +203,9 @@ margin: 0 20px;
     transition: all .4s ease-in-out;
 }
 
-.partner #fin{
-  
-  width: 120px;
-  height: 90px;
- 
+.partner #thai{
+  width: 125px;
 }
-
 .partner img:hover{
     transform:scale(1.3); 
 }
@@ -306,8 +302,8 @@ margin: 0 20px;
 }
 
 .contact h4{
-  padding-right: 20px;
   font-size: 18px;
+  margin: 0 0 22px 5px;
 }
 .copyrights i{
   padding: 5x;
