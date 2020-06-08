@@ -461,7 +461,7 @@ height: 400px;
 .tag-content p{
   font-size: 18px;
   font-family: 'Andika', sans-serif;
-  padding: 10px;
+  padding:  10px 15px;
   
 }
 
@@ -490,14 +490,14 @@ height: 400px;
 .left{
   position: absolute;
   top: 200px;
-  left: 10px;
+  left: -100px;
   font-size: 30px;
   
 }
 
 .right{
   position: absolute;
-  left: 300px;
+  left: 3000px;
   top: 200px;
   padding-right: 10px;
   font-size: 30px;
