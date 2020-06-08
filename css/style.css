@@ -465,11 +465,16 @@ height: 400px;
   
 }
 
+.tag-content h5{
+  margin: 15px;
+  font-size: 18px;
+}
+
 
 
 .responsive .celebrity-image{
   width: 400px;
-  height: 380px;
+  height: 400px;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -481,7 +486,7 @@ height: 400px;
 
 .celebrity-image img{
   width: 320px;
-  height: 380px;
+  height: 400px;
   border-radius: 20px;
  margin: 0 45px;
 }
