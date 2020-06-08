@@ -438,9 +438,9 @@ height: 400px;
 .partner-container{
   background:url('../images/travel.jpg'); 
   background-position:center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-   width: 100%;
+   width: auto;
    height: 180px;
 }
 
@@ -492,8 +492,7 @@ font-size: 35px;
   border-radius: 20px;
   transition: .5s ease-out;
   background-color: transparent;
-  display: flex;
-  justify-content: center;
+margin: 0 100px;
 }
 
 .faq-que .readmore:hover{
