@@ -438,12 +438,12 @@ height: 400px;
   display: flex;
   width: 100%;
   flex-direction: column;
-  height:auto;
+  height:680px;
   overflow: hidden;
 }
 .tags{
   width: 100%;
-  margin: 20px;
+  margin: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -461,6 +461,7 @@ height: 400px;
 .tag-content p{
   font-size: 18px;
   font-family: 'Andika', sans-serif;
+  padding: 10px;
   
 }
 
@@ -468,7 +469,7 @@ height: 400px;
 
 .responsive .celebrity-image{
   width: 400px;
-  height: 400px;
+  height: 380px;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -479,13 +480,10 @@ height: 400px;
 }
 
 .celebrity-image img{
-  width: 250px;
-  height: 400px;
+  width: 320px;
+  height: 380px;
   border-radius: 20px;
  margin: 0 45px;
-  transition: .5s ease-in-out;
-  /* width: 100px;
-  height: 100px; */
 }
 
 
@@ -501,7 +499,7 @@ height: 400px;
   position: absolute;
   left: 300px;
   top: 200px;
-  padding-right: 20px;
+  padding-right: 10px;
   font-size: 30px;
 }
 
@@ -518,7 +516,7 @@ height: 400px;
   background-size: cover;
   background-repeat: no-repeat;
    width: auto;
-   height: 180px;
+   height: 220px;
 }
 
 /* Faq */
