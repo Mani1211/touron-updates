@@ -1,5 +1,5 @@
 
-
+@import url('https://fonts.googleapis.com/css2?family=Andika&display=swap');
 
 /* Button */
 .button{
@@ -391,9 +391,14 @@ height: 400px;
   padding: 10px;
 }
 
-
-
-
+.payment-options h4{
+  font-family: 'Andika', sans-serif;
+}
+.payment-options{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
 /* Responsive css */
 
@@ -692,6 +697,17 @@ margin: 0 100px;
 .copyrights i{
   padding: 10px;
  
+}
+
+
+
+.payment-options h4{
+  font-family: 'Andika', sans-serif;
+}
+.payment-options{
+  display: flex;
+  flex-direction: column;
+
 }
 
 }
