@@ -3,14 +3,9 @@ $(document).ready(function(){
   
 
   $('.responsive').slick({
-    dots: true,
-    // customPaging: function(slider, i) {
-    //   // this example would render "tabs" with titles
-    //   return '<span class="active dot fas fa-circle"></span>';
-    // },
-
     infinite: true,
     speed: 300,
+    dots:true,
     slidesToShow: 2,
     slidesToScroll: 2,
     arrows:true,
@@ -23,21 +18,26 @@ $(document).ready(function(){
           slidesToShow: 2,
           slidesToScroll: 1,
           infinite: true,
-          dots: true
+          dots: true,
+
         }
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
+          slidesToScroll: 1,
+
+      
         }
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
+          slidesToScroll: 1,
+          
+          
         }
       }
       // You can unslick at a given breakpoint now by adding:
