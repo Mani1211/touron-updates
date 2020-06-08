@@ -443,8 +443,10 @@ font-size: 35px;
 }
 .faq-content{ 
   display: flex;
+  flex-wrap: wrap;
 }
 .faq-section .faq-que{
+  margin: 10px;
   width: 100%;
   padding:10px;
 }
@@ -474,7 +476,6 @@ font-size: 35px;
   transition: .5s ease-out;
   background-color: transparent;
   margin-left: 60px;
-  
 }
 
 .faq-que .readmore:hover{
@@ -483,7 +484,14 @@ font-size: 35px;
   transform: scale(1.1);
 }
 .faq-section .faq-image{
-background-image: none;
+  width: 350px;
+  background-image: url('../images/FAQ.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  margin: 5px 0;
+  display: flex;
+  justify-content: center;
 }
 
 
