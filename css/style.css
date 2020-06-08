@@ -474,7 +474,7 @@ height: 400px;
 
 .responsive .celebrity-image{
   width: 400px;
-  height: 400px;
+  height: 420px;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -495,17 +495,17 @@ height: 400px;
 .left{
   position: absolute;
   top: 200px;
-  left: -100px;
+  left: 10px;
   font-size: 30px;
   
 }
 
 .right{
   position: absolute;
-  left: 3000px;
+  left: 410px;
   top: 200px;
   padding-right: 10px;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .far{
