@@ -157,7 +157,7 @@ background: linear-gradient(to right, #267871, #136a8a); /* W3C, IE 10+/ Edge, F
 
 .partner-container{
    background:url('../images/travel.jpg'); 
-    width: 100%;
+    width: 100vw;
     height: 650px;
 }
 
@@ -380,6 +380,7 @@ height: 400px;
 
 .copyrights p{
   margin: 20px 0;
+  font-size: 18px;
   font-family: 'Andika', sans-serif;
 }
 
@@ -388,7 +389,7 @@ height: 400px;
   margin: 0 0 22px 5px;
 }
 .copyrights i{
-  padding: 5x;
+  padding: 5px;
  
 }
 
