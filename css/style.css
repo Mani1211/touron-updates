@@ -380,7 +380,6 @@ height: 400px;
 
 .copyrights p{
   margin: 20px 0;
-  font-size: 10px;
   font-family: 'Andika', sans-serif;
 }
 
@@ -389,8 +388,7 @@ height: 400px;
   margin: 0 0 22px 5px;
 }
 .copyrights i{
-  padding: 5px;
-  font-size: 5px;
+  padding: 10px;
 }
 
 
@@ -680,6 +678,7 @@ margin: 0 100px;
 
 .copyrights p{
   margin:0  10px;
+  font-size: 10px;
   font-family: 'Andika', sans-serif;;
 }
 
@@ -691,7 +690,7 @@ margin: 0 100px;
 
 }
 .copyrights i{
-  padding: 20x;
+  padding: 20px;
  
 }
 
