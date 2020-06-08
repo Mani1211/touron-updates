@@ -713,7 +713,12 @@ margin: 0 100px;
 .option{
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 
+}
+
+.option p{
+  flex-basis: 40%;
 }
 
 }
