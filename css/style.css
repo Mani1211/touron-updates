@@ -664,7 +664,7 @@ margin: 0 100px;
 
 .address p{
   font-size: 15px;
-  padding-left: 45px;
+  padding-left: 43px;
   line-height: 2.5;
 }
 .icons i{
@@ -678,7 +678,7 @@ margin: 0 100px;
 
 
 .copyrights p{
-  margin: 0;
+  margin:0  10px;
   font-family: 'Andika', sans-serif;;
 }
 
