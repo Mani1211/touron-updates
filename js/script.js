@@ -46,5 +46,16 @@ $(document).ready(function(){
       // instead of a settings object
     ]
   });
-      
+  
+
+  $('.testimonials').slick({
+    dots:true,
+    infinite: true,
+    speed: 500,
+    fade: true,
+    cssEase: 'linear',
+    arrows:true,
+  
+  });
+
   });
