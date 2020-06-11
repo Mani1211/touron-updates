@@ -662,9 +662,7 @@ Acheivements */
 #acheivements-section2{
   width: 420px;
   background-image: url('../images/Count-Mobile.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; 
+
   height: 350px;
 }
 /* Faq */
