@@ -1,10 +1,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Andika&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 /* Tour tile deisgn */
 
-/* .tour-tiles{
+ .tour-tiles{
   width: 100%;
   height: 800px;
   display: flex;
@@ -37,7 +38,7 @@
 
 .image img:hover{
   transform: scale(1.1);
-} */
+} 
 
 
 
@@ -59,7 +60,7 @@
   display: flex;
   justify-content: center;
   padding: 20px;
-  font-family: 'Andika', sans-serif;
+  font-family: 'Pacifico', cursive;
 }
 
 
@@ -97,12 +98,7 @@ justify-content:flex-end;
 font-size: 20px;
 color:#2B2B52;
 }
-/* .testimonials-feedback .review{
-  display: flex;
-  justify-content:flex-start;
-  font-size: 22px;
-  color:#2B2B52;
-  } */
+
   
 
 .testimonials-section .slick-dots{
@@ -202,7 +198,7 @@ background: linear-gradient(to right, #267871, #136a8a); /* W3C, IE 10+/ Edge, F
 }
 .tags h1{
   margin: 30px 20px;
-  font-family: 'Andika', sans-serif;
+  font-family: 'Pacifico', cursive;
   font-size: 30px;
   padding-right: 40px;
   font-weight: bold;
@@ -336,6 +332,13 @@ margin: 0 20px;
 
 /* Faq */
 
+#acheivements-section2{
+  background-image: url('../images/Count.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; 
+  height: 500px;
+}
 
 .faq-section{
   width: 100%;
@@ -345,6 +348,7 @@ margin: 0 20px;
 }
 .faq-section h1{
 padding-top: 40px;
+font-family: 'Pacifico', cursive;
 }
 .faq-content{ 
   display: flex;
@@ -424,7 +428,7 @@ height: 420px;
 .enquiry h4{
   
   padding:  5px 100px;
-  font-family: 'Andika', sans-serif;
+  font-family: 'Pacifico', cursive;
   font-size:15px;
   color: black;
   text-transform: uppercase;
@@ -650,6 +654,19 @@ height: 420px;
    height:200px;
 }
 
+/* 
+Acheivements */
+
+
+
+#acheivements-section2{
+  width: 400px;
+  background-image: url('../images/Count-Mobile.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; 
+  height: 650px;
+}
 /* Faq */
 
 
