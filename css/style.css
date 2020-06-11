@@ -673,7 +673,7 @@ Acheivements */
 /* Testimonials */
 
 .testimonials-section{
-  width: 420px;
+  width: 410px;
   height:680px;
   background-image: url('../images/Testimonials.jpg');
 
@@ -690,7 +690,7 @@ Acheivements */
 
 
 .testimonials-feedback{
-margin: 10px 5px;
+margin: 10px 0;
 border: 10px solid #d9d9d9;
 width: 400px;
 height: 580px;
