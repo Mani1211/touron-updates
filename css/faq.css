@@ -228,3 +228,52 @@ width: 100%;
     align-items: center;
     background-color: #0007;
 } */
+
+
+
+
+
+
+/* Responsive css */
+
+
+@media only screen and (max-width:770px){
+    #faq-section{
+        padding: 50px;
+        background-image: url('../images/Travel\ &\ Media\ Partner.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 410px;
+    }
+
+
+
+    #myBtnContainer{
+        width: 1000px;
+        display: flex;
+        justify-content: center;
+        margin:0 5px;
+    }
+    #myBtnContainer .btn{
+
+        display: flex;
+        justify-content: center;
+        border: none;
+        margin: 10px;
+        outline: none;
+        font-size: 20px;
+        border: 2px groove bisque;
+        border-radius: 20px;
+        transition: all .3s ease-in-out;
+    }
+    
+    #myBtnContainer .btn.active{
+        background-color: bisque;
+    }
+    #myBtnContainer .btn:hover{
+        box-shadow: 0 2px 2px #333;
+        background-color: bisque;
+        transform: scale(1.1);
+    }
+}
