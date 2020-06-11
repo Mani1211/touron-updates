@@ -649,8 +649,10 @@ height: 420px;
 
 .partner-container{
   background:url('../images/travel.jpg'); 
-
-   width:410px;
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+   width: auto;
    height:200px;
 }
 
@@ -672,7 +674,7 @@ Acheivements */
 
 .testimonials-section{
   width: 410px;
-  height:650px;
+  height:680px;
   background-image: url('../images/Testimonials.jpg');
 
 }
@@ -711,7 +713,7 @@ position: relative;
 font-size: 15px;
 line-height: 1.5;
 margin: 5px;
-padding-top: 200px;
+padding-top: 210px;
 position: relative;
 }
 
