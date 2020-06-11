@@ -314,7 +314,7 @@ width: 100%;
         position: absolute;
         border-radius: 50%;
         padding: 0;
-    
+        right: 5px;
         transition: transform .2s ease-in-out;
     }
     
@@ -323,6 +323,7 @@ width: 100%;
     }
     
     .faq-answer{
+        width: 400px;
         max-height: 0;
         overflow: hidden;
         transition: max-height .3s ease-in-out;
@@ -330,6 +331,7 @@ width: 100%;
         padding: 5px;
     }
     .faq-answer-content{
+
         padding:15px;
         margin: 10px 0;
         font-family: 'Andika', sans-serif;
