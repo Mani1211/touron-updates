@@ -290,14 +290,14 @@ width: 100%;
     }
     
     .faq-question{
-        width: 420px;
-        padding: 10px;
+        width: 410px;
+        padding: 10px 0;
         font-family: 'Andika', sans-serif;
         line-height: 1;
         min-height: 30px;
         display: flex;
         color: black;
-        font-size: 20px;
+        font-size: 18px;
         align-items: center;
         font-weight: bold;
         cursor: pointer;
@@ -314,7 +314,7 @@ width: 100%;
         position: absolute;
         border-radius: 50%;
         padding: 0;
-        right: 10px;
+    
         transition: transform .2s ease-in-out;
     }
     
