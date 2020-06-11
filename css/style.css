@@ -606,7 +606,7 @@ height: 420px;
 .responsive .celebrity-image{
   width: 400px;
   height: 420px;
-  margin-right: 20px;
+  margin:10px 20px;
   overflow: hidden;
 }
 
