@@ -241,13 +241,13 @@ width: 100%;
     #faq-section{
         padding: 20px;
         background-image: url('../images/Travel\ &\ Media\ Partner.jpg');
-        width: 420px;
+        width: 410px;
     }
 
 
 
     #myBtnContainer{
-        width: 420px;
+        width: 410px;
         display: flex;
         flex-wrap: wrap;
         margin: 10px;
@@ -274,14 +274,14 @@ width: 100%;
 
 
     .faq{
-        margin: 2opx auto;
-        width: 420px
+        margin: 20px auto;
+        width: 400px
     
     }
     
     .faq-item{
         /* background-color: lightcoral; */
-        margin: 20px 0;
+        margin: 0px 0;
         /* border-radius: 5px; */
         border-top: 2px solid #333;
     
@@ -294,7 +294,7 @@ width: 100%;
         padding: 10px;
         font-family: 'Andika', sans-serif;
         line-height: 1;
-        min-height: 40px;
+        min-height: 30px;
         display: flex;
         color: black;
         font-size: 20px;
@@ -310,10 +310,10 @@ width: 100%;
     
     .faq-question::after{
         content: '\002b';
-        font-size: 30px;
+        font-size: 25px;
         position: absolute;
         border-radius: 50%;
-        padding: 10px;
+        padding: 0;
         right: 10px;
         transition: transform .2s ease-in-out;
     }
@@ -330,14 +330,14 @@ width: 100%;
         padding: 5px;
     }
     .faq-answer-content{
-        padding:5px;
+        padding:15px;
         margin: 10px 0;
         font-family: 'Andika', sans-serif;
         line-height: 2;
         border: 1px solid #777E8B;
         background-color: transparent;
         border-radius: 20px;
-        font-size: 16px;
+        font-size: 15px;
     
        
     }
