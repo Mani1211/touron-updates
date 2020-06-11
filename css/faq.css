@@ -239,31 +239,26 @@ width: 100%;
 
 @media only screen and (max-width:770px){
     #faq-section{
-        padding: 50px;
+        padding: 20px;
         background-image: url('../images/Travel\ &\ Media\ Partner.jpg');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 410px;
+        width: 420px;
     }
 
 
 
     #myBtnContainer{
-        width: 1000px;
+        width: 420px;
         display: flex;
-        justify-content: center;
-        margin:0 5px;
+        flex-wrap: wrap;
+        margin: 10px;
     }
     #myBtnContainer .btn{
 
-        display: flex;
-        justify-content: center;
+      flex-basis: 60%;
         border: none;
-        margin: 10px;
+        margin: 20px;
         outline: none;
         font-size: 20px;
-        border: 2px groove bisque;
         border-radius: 20px;
         transition: all .3s ease-in-out;
     }
@@ -275,5 +270,75 @@ width: 100%;
         box-shadow: 0 2px 2px #333;
         background-color: bisque;
         transform: scale(1.1);
+    }
+
+
+    .faq{
+        margin: 2opx auto;
+        width: 420px
+    
+    }
+    
+    .faq-item{
+        /* background-color: lightcoral; */
+        margin: 20px 0;
+        /* border-radius: 5px; */
+        border-top: 2px solid #333;
+    
+        padding: 10px;
+        
+    }
+    
+    .faq-question{
+        width: 420px;
+        padding: 10px;
+        font-family: 'Andika', sans-serif;
+        line-height: 1;
+        min-height: 40px;
+        display: flex;
+        color: black;
+        font-size: 20px;
+        align-items: center;
+        font-weight: bold;
+        cursor: pointer;
+        position: relative;
+    }
+    
+    .faq-question:hover{
+        color: #ff0000;
+    }
+    
+    .faq-question::after{
+        content: '\002b';
+        font-size: 30px;
+        position: absolute;
+        border-radius: 50%;
+        padding: 10px;
+        right: 10px;
+        transition: transform .2s ease-in-out;
+    }
+    
+    .faq-question.active::after{
+    transform: rotate(45deg);   
+    }
+    
+    .faq-answer{
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height .3s ease-in-out;
+        color: #333;
+        padding: 5px;
+    }
+    .faq-answer-content{
+        padding:5px;
+        margin: 10px 0;
+        font-family: 'Andika', sans-serif;
+        line-height: 2;
+        border: 1px solid #777E8B;
+        background-color: transparent;
+        border-radius: 20px;
+        font-size: 16px;
+    
+       
     }
 }
