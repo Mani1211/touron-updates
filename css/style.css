@@ -616,10 +616,11 @@ height: 420px;
 }
 
 .celebrity-image img{
-  width: 320px;
+  width: 340px;
   height: 400px;
+  padding:  0 20px;
   border-radius: 20px;
-margin: 0 20px;
+margin: 0 10px;
 }
 
 
