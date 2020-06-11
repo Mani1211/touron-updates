@@ -22,44 +22,7 @@ body
 }
 
 
-/* 
-header{
-    width: 100%;
-    height: 90px;
-    box-shadow: 0 0 10px gray;
-    background-color: white;
-}
 
-nav ul{
-    list-style: none;
-    float: right;
-    
-}
- nav img{
-    margin-top: 13px;
-    width: 200px;
-    margin-left: 35px;
-}
-nav ul li{
-    display: inline-block;
-    padding: 16px 16px;
-    line-height: 50px;
-    font-size: 17px;
-    font-family: cursive;
-    color: black;
-    font-weight: 600;
-}
-nav ul li a{
-    color: #3e8799;
-}
-
-nav ul li a:hover{
-    text-decoration: none;
-    color:#a90d0d;
-    
-}
-
- */
 
  #faq-section{
     padding: 50px;
@@ -70,7 +33,7 @@ nav ul li a:hover{
     
 }
 
- #faq-section h1,#acheivements-section h1 {
+ #faq-section h1 {
     margin: 2.5rem 0;
     font-size: 40px;
     text-align: center;
@@ -87,6 +50,8 @@ nav ul li a:hover{
 }
 #myBtnContainer .btn{
     padding:10px 20px;
+    display: flex;
+    justify-content: center;
     border: none;
     margin: 10px;
     outline: none;
@@ -106,9 +71,7 @@ nav ul li a:hover{
 }
 
 
-.faq .show {
-    display:block;
-}
+
 
 .faq{
     margin: 2rem auto;
@@ -116,15 +79,6 @@ nav ul li a:hover{
     max-width: 1000px;
 
 }
-/* .faq .filterDiv{
-    background-color: aqua;
-    color: red;
-    width: 100px;
-    line-height: 100px;
-    text-align: center;
-    margin: 2px;
-    display: none;
-} */
 
 .faq-item{
     /* background-color: lightcoral; */
