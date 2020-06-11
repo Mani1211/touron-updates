@@ -569,7 +569,7 @@ height: 420px;
   display: flex;
   width: 100%;
   flex-direction: column;
-  height:720px;
+  height:700px;
   overflow: hidden;
 }
 .tags{
@@ -606,7 +606,7 @@ height: 420px;
 .responsive .celebrity-image{
   width: 400px;
   height: 440px;
-  margin:15px 0;
+  margin:10px 0;
   overflow: hidden;
 }
 
