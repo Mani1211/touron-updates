@@ -329,7 +329,6 @@ width: 100%;
         overflow: hidden;
         transition: max-height .3s ease-in-out;
         color: #333;
-        padding: 5px;
         margin: 0 auto;
     }
     .faq-answer-content{
