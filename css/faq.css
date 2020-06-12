@@ -184,7 +184,6 @@ transform: rotate(45deg);
     #myBtnContainer{
         width: 410px;
         display: flex;
-        flex-wrap: wrap;
         margin: 10px;
     }
     #myBtnContainer .btn{
@@ -196,6 +195,7 @@ transform: rotate(45deg);
         font-size: 20px;
         border-radius: 20px;
         transition: all .3s ease-in-out;
+        background-color: transparent;
     }
     
     #myBtnContainer .btn.active{
