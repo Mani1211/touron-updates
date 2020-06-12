@@ -15,17 +15,17 @@ let faqs=[
         "question":"3. What is Surprise Tour ?",
         "answer":"We surprise you with the best suitable location within your budget and according to your travel preferences. Destination will be revealed only 3 days before your departure date. <br> We don’t have concrete itineraries as we believe that you should decide where you want to invest your money. We also recommend various things to do which you can book yourself or we can book upon your confirmati"
     },
-    {
-             "type":"general",
-             "question":"4. Will you arrange Self Drive Car/Bike for Road Trip Tours ?",
-             "answer":" Yes we do. We arrange self drive car/bike dependent to your destination ranging from lowest - high end category vehicles. "
-         },
-
+    
     {
         "type":"general",
-        "question":"5. What is Road Trip ?",
+        "question":"4. What is Road Trip ?",
         "answer":"It is all about the journey and not the destination.” If this is your mantra, a road trip is the best option for you! A road trip lets you experience the scenic beauty of the places you go by unlike taking a train or a flight. We provide you with appropriate route plans and recommendations of restaurants, fuel stations, etc. We do plan it all out for you, but the decision of what to explore and what not still remains with you."
     },
+                        {
+                                 "type":"general",
+                                 "question":"5. Will you arrange Self Drive Car/Bike for Road Trip Tours ?",
+                                 "answer":" Yes we do. We arrange self drive car/bike dependent to your destination ranging from lowest - high end category vehicles. "
+                             },
     {
         "type":"general",
         "question":"6.What if I know where I want to go & can I select Surprise Tou",
@@ -132,7 +132,7 @@ let faqs=[
    {
        "type":"booking",
        "question":"11. What if I want to cancel my tour ?",
-       "answer":" Cancellation Charges & Refunds are subject to the transportation / accommodation / activities / tour providers through which your reservations are made. Our Service Fee is 50% Refundable if cancellation done before 15 days and 100% non-refundable when cancelled on or after 14 day. Discount amount will not be considered during cancellation ! "
+       "answer":"Cancellation Charges & Refunds are subject to the transportation / accommodation / activities / tour providers through which your reservations are made. Our Service Fee is 50% Refundable if cancellation done before 15 days 0f the travel and 100% non-refundable when cancelled on or after 14th day before the travel. Discount amount will not be considered during cancellation !"
    },
    {
        "type":"support",
