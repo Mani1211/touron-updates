@@ -184,7 +184,7 @@ transform: rotate(45deg);
     #myBtnContainer{
         width: 410px;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         margin: 10px;
     }
     #myBtnContainer .btn{
