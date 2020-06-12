@@ -168,7 +168,7 @@ transform: rotate(45deg);
 
 
     #acheivements-section{
-        width: 410px;
+        width: 420px;
         background-image: url('../images/Count-Mobile\ 3.jpg');
         height: 450px;
       }
@@ -187,8 +187,6 @@ transform: rotate(45deg);
         margin: 10px;
     }
     #myBtnContainer .btn{
-
-      flex-basis: 60%;
         border: none;
         margin: 20px;
         outline: none;
