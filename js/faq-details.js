@@ -151,7 +151,7 @@ let faqs=[
    },
    {
        "type":"support",
-       "question":"4. I’m traveling to outside Asia and most of the tours are from common pick up points.<br> <br> Will you help me ?",
+       "question":"4. I’m traveling to outside Asia and most of the tours are from common pick up points. <br> Will you help me ?",
        "answer":" Indeed, before you start your tour, you will get the ROUTE PLANS to your WhatsApp, Email & Hard Copy dispatched to your given address. ROUTE PLANS have point by point data on the most proficient method to get to the Public transportation, neighborhood taxi's, directions from your hotel. It couldn't be any more obvious, you are in safe hands !"
    },
    {
