@@ -1,10 +1,5 @@
 
 $(document).ready(function(){
-
-
-
-
- 
   
  // This for Celebrity section
  
@@ -70,6 +65,7 @@ $(document).ready(function(){
   });
 
   });
+
 
 
 
